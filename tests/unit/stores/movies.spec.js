@@ -178,7 +178,7 @@ describe("movies store", () => {
       global.fetch = jest.fn(() => ({
         json: () => ({
           images: {
-            base_url: fakeUrl,
+            secure_base_url: fakeUrl,
             poster_sizes: fakePosterSizes,
             backdrop_sizes: fakeBackdropSizes
           }

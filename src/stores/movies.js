@@ -122,7 +122,7 @@ const actions = {
     );
 
     commit("setConfiguration", {
-      imageBaseUrl: result.images.base_url,
+      imageBaseUrl: result.images.secure_base_url,
       posterSizes: result.images.poster_sizes,
       backdropSizes: result.images.backdrop_sizes
     });
