@@ -4,6 +4,10 @@
 
 🖖 Implemented with Vue!
 
+👇 Check it out 👇
+
+https://movie-listing-vue.qingqi.dev/
+
 ## Features
 
 - Lazy loaded components with spinner for quick interaction time
