@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown.vue collapse 1`] = `
+<div class="dropdown__container">
+  <div class="dropdown dropdown--collapsed">
+    <div class="dropdown__inner"><button class="dropdown__trigger">
+        <div class="fakeTrigger"></div>
+        <icon-stub name="arrow_drop_down" class="dropdown__icon"></icon-stub>
+      </button>
+      <div class="dropdown__options">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown.vue expand 1`] = `
+<div class="dropdown__container">
+  <div class="dropdown dropdown--expanded">
+    <div class="dropdown__inner"><button class="dropdown__trigger">
+        <div class="fakeTrigger"></div>
+        <icon-stub name="arrow_drop_down" class="dropdown__icon"></icon-stub>
+      </button>
+      <div class="dropdown__options">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown.vue initial renders 1`] = `
+<div class="dropdown__container">
+  <div class="dropdown">
+    <div class="dropdown__inner"><button class="dropdown__trigger">
+        <div class="fakeTrigger"></div>
+        <icon-stub name="arrow_drop_down" class="dropdown__icon"></icon-stub>
+      </button>
+      <div class="dropdown__options">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

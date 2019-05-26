@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home.vue renders error 1`] = `
+<div class="home">
+  <action-bar-stub></action-bar-stub>
+  <movie-list-stub></movie-list-stub>
+  <error-modal-stub>test error</error-modal-stub>
+</div>
+`;
+
+exports[`Home.vue renders no error 1`] = `
+<div class="home">
+  <action-bar-stub></action-bar-stub>
+  <movie-list-stub></movie-list-stub>
+  <!---->
+</div>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieImage.vue invalid type 1`] = `<div class="movie-image"><img src="https://images.com//test.jpg" srcset="" sizes="(min-width: 2100px) 14.29vw, (min-width: 1800px) 16.67vw, (min-width: 1500px) 20.00vw, (min-width: 1200px) 25.00vw, (min-width: 900px) 33.33vw, (min-width: 600px) 50.00vw, 100vw" alt=""></div>`;
+
+exports[`MovieImage.vue renders 1`] = `<div class="movie-image"><img src="https://images.com/w100/test.jpg" srcset="https://images.com/w100/test.jpg 100w, https://images.com/w300/test.jpg 300w, https://images.com/original/test.jpg 2000w" sizes="(min-width: 2100px) 14.29vw, (min-width: 1800px) 16.67vw, (min-width: 1500px) 20.00vw, (min-width: 1200px) 25.00vw, (min-width: 900px) 33.33vw, (min-width: 600px) 50.00vw, 100vw" alt=""></div>`;

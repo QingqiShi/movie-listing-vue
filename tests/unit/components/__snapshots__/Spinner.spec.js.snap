@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner.vue renders 1`] = `
+<div class="spinner">
+  <div class="spinner__wrapper">
+    <div class="spinner__A"></div>
+    <div class="spinner__B"></div>
+    <div class="spinner__C"></div>
+  </div>
+</div>
+`;

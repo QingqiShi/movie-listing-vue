@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionFilter.vue renders 1`] = `
+<div class="filter"><span class="filter__label">Filter By</span>
+  <div is-stub="dropdown" count="5"><span class="filter__dropdown-trigger">
+        Showing 0 of 1
+      </span>
+    <div class="filter__dropdown-label">Minimum Rating</div>
+    <div class="filter__dropdown-option filter__dropdown-rating">
+      <range-input-stub min="0" max="10" step="0.5" value="3"></range-input-stub> <span>3</span>
+    </div>
+    <div class="filter__dropdown-label">Genres</div>
+    <div class="filter__dropdown-option filter__genre-option"><span>Action</span> <span><icon-stub name="check_box_outline_blank"></icon-stub></span></div>
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "shiqingqi-27cab"
+  },
+  "targets": {
+    "shiqingqi-27cab": {
+      "hosting": {
+        "movie-listing-vue": [
+          "movie-listing-vue"
+        ]
+      }
+    }
+  }
+}

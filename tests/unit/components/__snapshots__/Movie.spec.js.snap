@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie.vue renders 1`] = `
+<div class="movie">
+  <movie-image-stub src="" type="poster" targetwidth="400" class="movie__image"></movie-image-stub> <span tag="div" name="flip-list" class="movie__badge"><div class="movie__popularity movie__badge--active"><icon-stub name="whatshot"></icon-stub> <span>230.0</span>
+</div>
+<div class="movie__rating">
+  <icon-stub name="star"></icon-stub> <span>5</span>
+</div></span>
+<div class="movie__genres">
+  <div class="movie__genres-genre">
+    <chip-stub>Action</chip-stub>
+  </div>
+</div>
+</div>
+`;
+
+exports[`Movie.vue reverse badge based on sort property 1`] = `
+<div class="movie">
+  <movie-image-stub src="" type="poster" targetwidth="400" class="movie__image"></movie-image-stub> <span tag="div" name="flip-list" class="movie__badge"><div class="movie__rating movie__badge--active"><icon-stub name="star"></icon-stub> <span>5</span>
+</div>
+<div class="movie__popularity">
+  <icon-stub name="whatshot"></icon-stub> <span>230.0</span>
+</div></span>
+<div class="movie__genres">
+  <div class="movie__genres-genre">
+    <chip-stub>Action</chip-stub>
+  </div>
+</div>
+</div>
+`;

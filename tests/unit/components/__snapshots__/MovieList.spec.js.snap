@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieList.vue renders 1`] = `<span tag="div" name="flip-list" class="movie-list"></span>`;

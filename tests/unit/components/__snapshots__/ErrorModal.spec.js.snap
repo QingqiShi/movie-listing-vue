@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorModal.vue renders 1`] = `
+<div class="error-modal__backdrop">
+  <div class="error-modal">
+    <icon-stub name="error"></icon-stub> <span><div>test</div></span>
+  </div>
+</div>
+`;

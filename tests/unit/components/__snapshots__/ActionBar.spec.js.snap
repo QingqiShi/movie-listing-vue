@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionBar.vue renders 1`] = `
+<div class="action-bar">
+  <h1 class="action-bar__title">
+    Movie Listing Vue
+    <span class="action-bar__author">By Qingqi Shi</span></h1>
+  <div class="action-bar__spacer"></div>
+  <div class="action-bar__actions">
+    <action-sort-stub></action-sort-stub>
+    <action-filter-stub></action-filter-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue update sort renders 1`] = `
+<div id="app" class="app--mounted">
+  <div class="app__load-wrapper">
+    <spinner-stub></spinner-stub>
+  </div>
+</div>
+`;
+
+exports[`App.vue update sort renders 2`] = `
+<div id="app" class="app--mounted">
+  <router-view-stub></router-view-stub>
+</div>
+`;

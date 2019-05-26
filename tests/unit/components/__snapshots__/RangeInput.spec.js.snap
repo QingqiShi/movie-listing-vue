@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RangeInput.vue renders 1`] = `<input type="range" min="0" max="20">`;

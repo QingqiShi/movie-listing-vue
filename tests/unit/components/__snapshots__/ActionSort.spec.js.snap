@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionSort.vue renders sort by "popularity" order false 1`] = `
+<div class="sort"><span class="sort__label">Sort By</span> <a href="#" class="sort__link sort__link--popularity sort__link--active">
+    Popularity
+    <span>↓</span></a> <span class="sort__seperator">|</span><a href="#" class="sort__link sort__link--vote_average">
+    Rating
+    <!----></a>
+  <!---->
+</div>
+`;
+
+exports[`ActionSort.vue renders sort by "popularity" order true 1`] = `
+<div class="sort"><span class="sort__label">Sort By</span> <a href="#" class="sort__link sort__link--popularity sort__link--active">
+    Popularity
+    <span>↑</span></a> <span class="sort__seperator">|</span><a href="#" class="sort__link sort__link--vote_average">
+    Rating
+    <!----></a>
+  <!---->
+</div>
+`;
+
+exports[`ActionSort.vue renders sort by "vote_average" order false 1`] = `
+<div class="sort"><span class="sort__label">Sort By</span> <a href="#" class="sort__link sort__link--popularity">
+    Popularity
+    <!----></a> <span class="sort__seperator">|</span><a href="#" class="sort__link sort__link--vote_average sort__link--active">
+    Rating
+    <span>↓</span></a>
+  <!---->
+</div>
+`;
+
+exports[`ActionSort.vue renders sort by "vote_average" order true 1`] = `
+<div class="sort"><span class="sort__label">Sort By</span> <a href="#" class="sort__link sort__link--popularity">
+    Popularity
+    <!----></a> <span class="sort__seperator">|</span><a href="#" class="sort__link sort__link--vote_average sort__link--active">
+    Rating
+    <span>↑</span></a>
+  <!---->
+</div>
+`;
